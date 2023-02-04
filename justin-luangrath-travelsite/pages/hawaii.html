@@ -5,37 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hawaii</title>
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/destinations.css">
 </head>
+<!-- nav -->
 <body>
-        <header>
-      <!-- main menu -->
-      <nav>
-        <div>
-          <h1>
-            <a href="../index.html">Travel Site</a>
-          </h1>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <ahref="../index.html">Home</ahref=>
-            </li>
-            <li>
-              <a
-                href="hawaii.html"
-                >Hawaii</a
-              >
-            </li>
-            <li>
-              <a href="iceland.html">Iceland</a>
-            </li>
-            <li>
-              <a href="greece.html">Greece</a>
-            </li>
+  <body>
+    <header class="nav">
+      <div class="nav__container">
+        <a class="nav__logo-link" href="../index.html">
+          <h2 class="nav__logo">Travel Site</h2>
+        </a>
+        <nav>
+          <ul class="nav__link-container">
+            <a href="../index.html" class="nav__link">
+              <li class="nav__link-text">Home</li>
+            </a>
+            <a href="./hawaii.html" class="nav__link">
+              <li class="nav__link-text nav__link-text--border">Hawaii</li>
+            </a>
+            <a href="./iceland.html" class="nav__link">
+              <li class="nav__link-text">Iceland</li>
+            </a>
+            <a href="./greece.html" class="nav__link">
+              <li class="nav__link-text">Greece</li>
+            </a>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <main>
             <main>
@@ -73,48 +70,48 @@
         </div>
       </section>
     </main>
-        <!-- footer -->
-    <footer>
-      <section>
-        <div>
-          <h3>Contact</h3>
-          <div>
-            <h4>Email</h4>
-            <p>info@travelsite.com</p>
+    <!-- footer -->
+    <footer class="footer">
+      <section class="footer__section">
+        <h3 class="footer__section-title">Contact</h3>
+        <p class="footer__section-sub-title">EMAIL</p>
+        <p class="footer__section-text">info@travelsite.com</p>
+      </section>
+      <section class="footer__section">
+        <h3 class="footer__section-title">Hours</h3>
+        <div class="footer__hours-container">
+          <div class="footer__hours">
+            <p class="footer__section-sub-title">MONDAY - FRIDAY</p>
+            <p class="footer__section-text">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer__hours">
+            <p class="footer__section-sub-title">SATURDAY</p>
+            <p class="footer__section-text">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer__hours">
+            <p class="footer__section-sub-title">SUNDAY</p>
+            <p class="footer__section-text">Closed</p>
           </div>
         </div>
-        <div>
-          <h3>Hours</h3>
-          <div>
-            <div>
-              <h4>Monday - Friday</h4>
-              <p>9:00 AM - 5:00 PM</p>
-            </div>
-            <div>
-              <h4">Saturday</h4>
-              <p>10:00 AM - 4:00 PM</p>
-            </div>
-            <div>
-              <h4>Sunday</h4>
-              <p>Closed</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h3>Social</h3>
-          <div>
-            <a href="https://twitter.com" target="_blank"
-              ><img
-                src="../assets/icons/icon-instagram.png"
-                alt="icon-instagram"
-            /></a>
-            <a href="https://facebook.com" target="_blank"
-              ><img src="../assets/icons/icon-facebook.png" alt="icon-facebook"
-            /></a>
-            <a href="https://instagram.com" target="_blank"
-              ><img src="../assets/icons/icon-twitter.png" alt="icon-twitter"
-            /></a>
-          </div>
+      </section>
+      <section class="footer__section">
+        <h3 class="footer__section-title">Social</h3>
+        <div class="footer__image-container">
+          <img
+            class="footer__image"
+            src="../assets/icons/icon-instagram.png"
+            alt="instagram"
+          />
+          <img
+            class="footer__image"
+            src="../assets/icons/icon-facebook.png"
+            alt="facebook"
+          />
+          <img
+            class="footer__image"
+            src="../assets/icons/icon-twitter.png"
+            alt="twitter"
+          />
         </div>
       </section>
     </footer>
