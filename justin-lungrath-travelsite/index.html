@@ -34,48 +34,38 @@
       </div>
     </header>
     <!-- hero -->
-    <section>
-      <section>
-        <div>
-          <h2>Travelling comes with Endless Discoveries.</h2>
-          <p>
-            Don't let your dreams be just dreams. Expereience the world by
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
+          <p class="hero__text">
+            Don't let your dreams be just dreams. Experience the world by
             booking a vacation with us now.
           </p>
-          <a href="">Get started</a>
+          <button class="hero__button">Get started</button>
         </div>
-        <div>
-          <img
-            src="./assets/Images/hero.png"
-            alt="airplane flying around the world"
-          />
-        </div>
+        <img class="hero__image" src="./assets/images/hero.png" alt="hero" />
       </section>
-    </section>
-    <main>
       <!-- recs -->
-      <section>
-        <section>
-          <h3>Recommendations</h3>
-          <div>
-            <a href="./pages/hawaii.html"
-              ><img src="./assets/Images/hawaii.jpg" alt="Hawaii"
-            /></a>
-            <a href="./pages/hawaii.html">Hawaii</a>
-          </div>
-          <div>
-            <a href="./pages/iceland.html"
-              ><img src="./assets/Images/iceland.jpg" alt="Iceland"
-            /></a>
-            <a href="./pages/iceland.html">Iceland</a>
-          </div>
-          <div>
-            <a href="./pages/greece.html"
-              ><img src="./assets/Images/greece.jpg" alt="Greece"
-            /></a>
-            <a href="./pages/greece.html">Greece</a>
-          </div>
-        </section>
+      <section class="rec">
+        <h2 class="rec__title">Recommendations</h2>
+        <div class="rec__card-container">
+          <a class="rec__link" href="./pages/hawaii.html">
+            <article class="rec__card rec__card--hawaii">
+              <h3 class="rec__text">Hawaii</h3>
+            </article>
+          </a>
+          <a class="rec__link" href="./pages/iceland.html">
+            <article class="rec__card rec__card--iceland">
+              <h3 class="rec__text">Iceland</h3>
+            </article>
+          </a>
+          <a class="rec__link" href="./pages/greece.html">
+            <article class="rec__card rec__card--greece">
+              <h3 class="rec__text">Greece</h3>
+            </article>
+          </a>
+        </div>
       </section>
     </main>
     <!-- footer -->

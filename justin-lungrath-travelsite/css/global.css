@@ -55,6 +55,7 @@ main {
 
 .nav__link-text:hover {
   border-bottom: 2px solid #db7a4e;
+  color: #db7a4e;
 }
 
 .nav__link-text--border {
