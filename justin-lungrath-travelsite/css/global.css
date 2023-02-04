@@ -61,3 +61,50 @@ main {
 .nav__link-text--border {
   border-bottom: 2px solid #db7a4e;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fefaf5;
+  color: #335576;
+  padding: 2rem 10rem 2.5rem 10rem;
+}
+
+.footer__section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.footer__section-sub-title {
+  font-size: 0.6rem;
+  color: #db7a4e;
+  margin-top: 1.5rem;
+}
+
+.footer__section-text {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer__hours-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__hours {
+  margin-right: 2rem;
+}
+
+.footer__image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.25rem;
+}
+
+.footer__image {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 2rem;
+}
